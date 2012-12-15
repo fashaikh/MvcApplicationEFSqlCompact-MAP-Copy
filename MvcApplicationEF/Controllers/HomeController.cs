@@ -12,7 +12,9 @@ namespace MvcApplicationEF.Controllers
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
 
-            return View();
+            var context = new MvcMusicStoreEntities();
+
+            return View(context.Genres.ToList());
         }
 
         public ActionResult About()
