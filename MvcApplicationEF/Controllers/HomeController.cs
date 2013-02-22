@@ -10,7 +10,7 @@ namespace MvcApplicationEF.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Faiz 2/22 2:50 PM Modify this template to jump-start your ASP.NET MVC application.";
+            ViewBag.Message = "Faiz 2/22 3:25 PM Modify this template to jump-start your ASP.NET MVC application.";
 
             var context = new MvcMusicStoreEntities();
 
